@@ -1,0 +1,6 @@
+obj/
+bin/
+.vs/
+packages/
+
+libNcmDump.sln.DotSettings.user
