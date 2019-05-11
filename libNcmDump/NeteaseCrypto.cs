@@ -22,7 +22,7 @@ namespace libNcmDump
         }
     }
 
-    class NeteaseCrypto : IComparable<NeteaseCrypto>
+    public class NeteaseCrypto : IComparable<NeteaseCrypto>
     {
         private static byte[] _flag = new byte[8] { 0x43, 0x54, 0x45, 0x4e, 0x46, 0x44, 0x41, 0x4d };
 

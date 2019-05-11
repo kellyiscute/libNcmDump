@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace libNcmDump
 {
     [DataContract]
-    class NeteaseCopyrightData
+    public class NeteaseCopyrightData
     {
         [DataMember(Name = "musicId")]
         public int MusicId { get; set; }
